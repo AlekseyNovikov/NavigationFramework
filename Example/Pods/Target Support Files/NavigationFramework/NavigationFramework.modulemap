@@ -1,0 +1,6 @@
+framework module NavigationFramework {
+  umbrella header "NavigationFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

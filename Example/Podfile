@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'NavigationFramework_Example' do
+  pod 'NavigationFramework', :path => '../'
+  pod 'Swinject'
+
+  target 'NavigationFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,19 @@
+PODS:
+  - NavigationFramework (0.1.0)
+  - Swinject (2.1.1)
+
+DEPENDENCIES:
+  - NavigationFramework (from `../`)
+  - Swinject
+
+EXTERNAL SOURCES:
+  NavigationFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NavigationFramework: 8d24aca6b8abee0dcc40bbd85c9821370d30e2f6
+  Swinject: afea49fd95f392b41171669f165842879c48fad6
+
+PODFILE CHECKSUM: 78fbaaaeae0d96a97ea336a4ea68ce5f0c4d7ddc
+
+COCOAPODS: 1.3.1
