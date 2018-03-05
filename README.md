@@ -22,7 +22,7 @@ pod 'NavigationFramework'
 
 ## Author
 
-AlekseyNovikov, alexey.novikov@lazada.com
+Aleksey Novikov, novikow.ay@gmail.com
 
 ## License
 
