@@ -19,12 +19,12 @@
 		4F1252D189FD031DD50D77B0D67624F7 /* Container.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EB2F3CD3D6EF8C2CB20BD9D42045FB /* Container.Arguments.swift */; };
 		584CC0220E552EC21BD192D0599864FF /* NavigationFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1358AC2DCE7C8BC703B5B18546E8792 /* NavigationFramework-dummy.m */; };
 		5E8D4798291EFD86ACB68EBC46E949ED /* Pods-NavigationFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 880F8AC1CC4A93E9F838B89BB01F4EA2 /* Pods-NavigationFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66B0EF18204D7CB200AE6EED /* TransitionResolverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0EF10204D7CB100AE6EED /* TransitionResolverType.swift */; };
-		66B0EF19204D7CB200AE6EED /* UITabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0EF11204D7CB200AE6EED /* UITabBarExtension.swift */; };
-		66B0EF1A204D7CB200AE6EED /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0EF12204D7CB200AE6EED /* TabBarCoordinator.swift */; };
-		66B0EF1B204D7CB200AE6EED /* TransitionContainerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0EF13204D7CB200AE6EED /* TransitionContainerType.swift */; };
-		66B0EF1D204D7CB200AE6EED /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0EF15204D7CB200AE6EED /* TransitionType.swift */; };
-		66B0EF1E204D7CB200AE6EED /* ModuleInputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0EF16204D7CB200AE6EED /* ModuleInputType.swift */; };
+		66BFAAB4204EA1BF00DE603F /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFAAAE204EA1BF00DE603F /* TransitionType.swift */; };
+		66BFAAB5204EA1BF00DE603F /* TransitionContainerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFAAAF204EA1BF00DE603F /* TransitionContainerType.swift */; };
+		66BFAAB6204EA1BF00DE603F /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFAAB0204EA1BF00DE603F /* TabBarCoordinator.swift */; };
+		66BFAAB7204EA1BF00DE603F /* ModuleInputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFAAB1204EA1BF00DE603F /* ModuleInputType.swift */; };
+		66BFAAB8204EA1BF00DE603F /* UITabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFAAB2204EA1BF00DE603F /* UITabBarExtension.swift */; };
+		66BFAAB9204EA1BF00DE603F /* TransitionResolverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFAAB3204EA1BF00DE603F /* TransitionResolverType.swift */; };
 		6E5F552F95F6258601813828ED1C7B2B /* Swinject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FF1B2CCC875FF2CA893FB254228C62 /* Swinject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EE38A71199BC4737A82851B696EA31F /* Pods-NavigationFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3179E4E91AB553A07C39FACA0CB7CE8 /* Pods-NavigationFramework_Tests-dummy.m */; };
 		710F80D98E42780DDEA509EBF7E09CC0 /* _Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8F0EE95546D79B8D0B009588CC478 /* _Resolver.swift */; };
@@ -89,12 +89,12 @@
 		63538A1BC981E736E8BEA964EE7F736A /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
 		646B35D2C3EB9BF7E6A837B513F3F982 /* NavigationFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationFramework-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66B0EF10204D7CB100AE6EED /* TransitionResolverType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionResolverType.swift; sourceTree = "<group>"; };
-		66B0EF11204D7CB200AE6EED /* UITabBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarExtension.swift; sourceTree = "<group>"; };
-		66B0EF12204D7CB200AE6EED /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
-		66B0EF13204D7CB200AE6EED /* TransitionContainerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionContainerType.swift; sourceTree = "<group>"; };
-		66B0EF15204D7CB200AE6EED /* TransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionType.swift; sourceTree = "<group>"; };
-		66B0EF16204D7CB200AE6EED /* ModuleInputType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleInputType.swift; sourceTree = "<group>"; };
+		66BFAAAE204EA1BF00DE603F /* TransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionType.swift; path = Sources/TransitionType.swift; sourceTree = "<group>"; };
+		66BFAAAF204EA1BF00DE603F /* TransitionContainerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionContainerType.swift; path = Sources/TransitionContainerType.swift; sourceTree = "<group>"; };
+		66BFAAB0204EA1BF00DE603F /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarCoordinator.swift; path = Sources/TabBarCoordinator.swift; sourceTree = "<group>"; };
+		66BFAAB1204EA1BF00DE603F /* ModuleInputType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModuleInputType.swift; path = Sources/ModuleInputType.swift; sourceTree = "<group>"; };
+		66BFAAB2204EA1BF00DE603F /* UITabBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITabBarExtension.swift; path = Sources/UITabBarExtension.swift; sourceTree = "<group>"; };
+		66BFAAB3204EA1BF00DE603F /* TransitionResolverType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionResolverType.swift; path = Sources/TransitionResolverType.swift; sourceTree = "<group>"; };
 		6B3941033237027FA41FD9628849DA34 /* Pods-NavigationFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		717D1EF8B2668F61198402E5B74B91EE /* ObjectScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.swift; path = Sources/ObjectScope.swift; sourceTree = "<group>"; };
 		7542658DC381910BB6CF9CFEC91F277D /* Pods-NavigationFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationFramework_Example-dummy.m"; sourceTree = "<group>"; };
@@ -168,12 +168,12 @@
 		11356602F0E00EF9AC0ECB447F127270 /* NavigationFramework */ = {
 			isa = PBXGroup;
 			children = (
-				66B0EF11204D7CB200AE6EED /* UITabBarExtension.swift */,
-				66B0EF12204D7CB200AE6EED /* TabBarCoordinator.swift */,
-				66B0EF15204D7CB200AE6EED /* TransitionType.swift */,
-				66B0EF13204D7CB200AE6EED /* TransitionContainerType.swift */,
-				66B0EF10204D7CB100AE6EED /* TransitionResolverType.swift */,
-				66B0EF16204D7CB200AE6EED /* ModuleInputType.swift */,
+				66BFAAB1204EA1BF00DE603F /* ModuleInputType.swift */,
+				66BFAAB0204EA1BF00DE603F /* TabBarCoordinator.swift */,
+				66BFAAAF204EA1BF00DE603F /* TransitionContainerType.swift */,
+				66BFAAB3204EA1BF00DE603F /* TransitionResolverType.swift */,
+				66BFAAAE204EA1BF00DE603F /* TransitionType.swift */,
+				66BFAAB2204EA1BF00DE603F /* UITabBarExtension.swift */,
 				96BAD8427ECC9F1143042E0C76B8A186 /* Support Files */,
 			);
 			name = NavigationFramework;
@@ -525,13 +525,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B0EF18204D7CB200AE6EED /* TransitionResolverType.swift in Sources */,
-				66B0EF19204D7CB200AE6EED /* UITabBarExtension.swift in Sources */,
-				66B0EF1B204D7CB200AE6EED /* TransitionContainerType.swift in Sources */,
+				66BFAAB4204EA1BF00DE603F /* TransitionType.swift in Sources */,
+				66BFAAB7204EA1BF00DE603F /* ModuleInputType.swift in Sources */,
 				584CC0220E552EC21BD192D0599864FF /* NavigationFramework-dummy.m in Sources */,
-				66B0EF1D204D7CB200AE6EED /* TransitionType.swift in Sources */,
-				66B0EF1E204D7CB200AE6EED /* ModuleInputType.swift in Sources */,
-				66B0EF1A204D7CB200AE6EED /* TabBarCoordinator.swift in Sources */,
+				66BFAAB6204EA1BF00DE603F /* TabBarCoordinator.swift in Sources */,
+				66BFAAB5204EA1BF00DE603F /* TransitionContainerType.swift in Sources */,
+				66BFAAB9204EA1BF00DE603F /* TransitionResolverType.swift in Sources */,
+				66BFAAB8204EA1BF00DE603F /* UITabBarExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
